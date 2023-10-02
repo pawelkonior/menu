@@ -307,6 +307,19 @@ template {
   display: none;
 }
 
+html, body {
+  font-size: 16px;
+}
+
+.header {
+  background-color: lightcoral;
+}
+.header__inner {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 60rem;
+}
+
 .menu {
   background-color: peru;
 }
@@ -316,6 +329,10 @@ template {
 }
 .menu__item--active, .menu__item:hover {
   color: lightgoldenrodyellow;
+}
+
+.logo {
+  background-color: lightgreen;
 }
 
 /*# sourceMappingURL=app.css.map */

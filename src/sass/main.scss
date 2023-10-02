@@ -1,4 +1,9 @@
 @import "../../node_modules/normalize.css/normalize";
 
+@import "./globals";
+
+@import "layout/header";
+
 @import "./components/menu";
+@import "./components/logo";
 
