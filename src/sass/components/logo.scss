@@ -1,6 +1,10 @@
-.logo {
-  background-color: lightgreen;
+@import "../helpers/functions";
+@import "../variables";
 
-  &__img {
-  }
+
+.logo {
+  background-image: url('#{$img-path}/logo.svg');
+  width: rem(100px);
+  height: rem(100px);
+  display: inline-block;
 }
